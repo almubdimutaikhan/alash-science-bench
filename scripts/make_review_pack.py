@@ -25,7 +25,8 @@ SHEET_COLUMNS = [
     # Reviewer fills these. Do the two blind answers before opening the key.
     'reviewer', 'blind_short_answer', 'blind_mcq_letter',
     'answer_supported_by_passage', 'single_correct_answer', 'distractors_plausible',
-    'answerable_without_the_book', 'kazakh_wording_ok', 'checked_against_scan',
+    'stem_hints_answer', 'answerable_without_the_book', 'kazakh_wording_ok',
+    'ocr_affects_answer', 'checked_against_scan',
     'verdict', 'notes',
 ]
 FIELD_TITLES = {

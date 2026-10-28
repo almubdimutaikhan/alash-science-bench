@@ -30,6 +30,10 @@ are unresolved, so please do not copy the passages elsewhere.
    - Copy `review/review_sheet.csv` to `review/human_reviews/<your-name>.csv`, fill it in, open a pull
      request. Columns are explained below. Edit it in Excel or Google Sheets; save as UTF-8 CSV.
    - Or open an *Item review* issue per problem item. Good for a few comments.
+   - **Excel route (no code):** `python3 scripts/make_excel_pack.py OUTPUT_DIR` builds a Kazakh-language workbook with
+     drop-downs, a pilot subset of 16 items and a time log. After it comes back,
+     `python3 scripts/import_excel_reviews.py FILLED.xlsx` converts it into `review/human_reviews/<name>.csv`.
+     Both need `pip install openpyxl`.
 
 Please do not edit `data/`, `source/` or `review/items/` directly; they are generated or
 hash-bound to earlier reviews. The maintainer applies accepted changes and re-runs the checks.
@@ -43,8 +47,10 @@ hash-bound to earlier reviews. The maintainer applies accepted changes and re-ru
 | `answer_supported_by_passage` | `yes`, `partly`, `no` |
 | `single_correct_answer` | `yes`, `no` (explain in notes) |
 | `distractors_plausible` | `yes`, `weak`, `no` |
+| `stem_hints_answer` | `yes`, `no` (a word in the question gives the answer away) |
 | `answerable_without_the_book` | `yes`, `maybe`, `no` |
 | `kazakh_wording_ok` | `yes`, `no` (explain) |
+| `ocr_affects_answer` | `yes`, `no`, `unsure` (an OCR error in the passage changes what the answer should be) |
 | `checked_against_scan` | `yes`, `no`, `na` |
 | `verdict` | `keep`, `revise`, `replace` |
 | `notes` | Anything else; quote the exact text you want changed |
