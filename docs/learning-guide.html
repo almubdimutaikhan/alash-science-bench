@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Building an Alash knowledge benchmark</title>
+<style>
+  :root{color-scheme:light dark;--bg:#f6f4ed;--paper:#fffef9;--ink:#192d30;--muted:#536568;--line:#d6ddd5;--accent:#08685e;--soft:#e7f1eb;--warm:#8a4b22;--focus:#b86918}
+  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:980px;margin:0 auto;padding:40px 28px 70px}h1,h2,h3{line-height:1.2;letter-spacing:-.025em}h1{font-family:Georgia,serif;font-size:clamp(2.2rem,5vw,3.8rem);font-weight:500;margin:.35em 0}h2{font-size:1.65rem;margin-top:0}h3{font-size:1.1rem}p{max-width:77ch}.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700}.lead{font-size:1.2rem;max-width:62ch}.note{color:var(--muted);font-size:.94rem}.counts{display:flex;gap:30px;flex-wrap:wrap;margin:25px 0}.counts strong{display:block;font:2rem Georgia,serif}.counts span{font-size:.85rem;color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:10px 22px;border-block:1px solid var(--line);padding:16px 0;margin:28px 0}a{color:var(--accent);text-underline-offset:3px}section{margin:42px 0;padding-top:8px}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:24px;margin:20px 0}.callout{border-left:4px solid var(--accent);padding:8px 20px;background:var(--soft)}.controls{display:flex;gap:20px;flex-wrap:wrap;margin:18px 0}label{cursor:pointer;display:inline-flex;gap:9px;align-items:center;min-height:44px}input[type=checkbox]{width:20px;height:20px;accent-color:var(--accent)}button{font:inherit;line-height:1.35;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 16px;min-height:46px;cursor:pointer}button:hover{border-color:var(--accent)}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.answer-options{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0;list-style:none}.answer-options button{text-align:left;width:100%;height:100%}.answer-options button[data-selected=true]{border:2px solid var(--accent);background:var(--soft)}.mode{font-size:.9rem;color:var(--accent);font-weight:700}.source{white-space:pre-wrap;overflow-wrap:anywhere;font-family:Georgia,serif;border-left:3px solid var(--line);padding:10px 18px;margin:18px 0}.quiz-options{display:grid;gap:10px}.quiz-options button{text-align:left}.feedback{min-height:1.5em;color:var(--accent);font-weight:600}.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}.two .card{margin:0}code{font-size:.86em;background:var(--soft);padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.86rem;background:var(--paper);padding:20px;border:1px solid var(--line);border-radius:9px}pre code{background:none;padding:0}table{border-collapse:collapse;width:100%;font-size:.95rem}th,td{text-align:left;padding:13px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--accent)}summary{cursor:pointer;font-weight:600;min-height:44px;padding:10px 0}li{margin:.45em 0}.small{font-size:.9rem}.step{color:var(--accent);font-weight:700}footer{border-top:1px solid var(--line);padding-top:24px;color:var(--muted);font-size:.9rem}[hidden]{display:none!important}
+  @media(max-width:600px){body{font-size:16px}main{padding:24px 18px 45px}.card{padding:18px}.two{grid-template-columns:1fr}.answer-options{grid-template-columns:1fr}.counts{gap:22px}th,td{padding:10px 6px}nav{gap:9px 15px}}
+  @media(prefers-color-scheme:dark){:root{--bg:#122225;--paper:#192d30;--ink:#ecf1e8;--muted:#b6c8c5;--line:#3b5556;--accent:#8dd6be;--soft:#223d3a;--warm:#edb57b;--focus:#e6b264}.primary{background:#12695e;color:#fff;border-color:#12695e}}
+  @media print{body{background:white;color:#172a2b}main{max-width:none;padding:0}nav,.controls,button,.quiz-options{display:none}.card{break-inside:avoid}.source{display:block!important}.note{color:#475657}a{color:#08685e}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="eyebrow">Your research notebook · Kazakh scientific heritage</div>
+  <h1>What does a model actually know?</h1>
+  <p class="lead">Build a benchmark you can explain, inspect and improve. Follow one Alash terminology question from its source to a fair evaluation.</p>
+  <div class="counts"><div><strong>160</strong><span>concept/fact pairs</span></div><div><strong>8 × 20</strong><span>fields and pairs per field</span></div><div><strong>320</strong><span>prompts across two formats</span></div></div>
+  <p class="note">The questions are AI-authored and independently AI-reviewed. Original-scan and human disciplinary review remain pending. No model inference or benchmark has been run.</p>
+</header>
+<nav aria-label="Guide sections"><a href="#example">Try one question</a><a href="#construction">How we built it</a><a href="#checks">Check your understanding</a><a href="#evaluation">A fair experiment</a><a href="#next">Your next task</a></nav>
+
+<section id="example">
+  <div class="eyebrow">1 · Recall before recognition</div>
+  <h2>A historical name for an anatomical structure</h2>
+  <p>Here is a question from Аймауытов's psychology work. We can ask for the historical name, ask the model to select it, or supply the source. Try answering before revealing the alternatives or the passage.</p>
+  <div class="card" id="experiment">
+    <p class="mode" id="mode" aria-live="polite">Short answer · no passage</p>
+    <p lang="kk" id="example-question"></p>
+    <p class="note">Pause and answer in your head before revealing anything.</p>
+    <div class="controls"><label><input id="show-choices" type="checkbox"> Give answer choices</label><label><input id="show-evidence" type="checkbox"> Give the source passage</label></div>
+    <ul id="example-choices" class="answer-options" hidden></ul>
+    <div id="evidence-panel" hidden><p class="small">Verbatim OCR evidence · source record 92 · printed page 93</p><blockquote lang="kk" class="source" id="example-evidence"></blockquote></div>
+    <p id="example-feedback" class="feedback" aria-live="polite"></p>
+    <button class="primary" type="button" id="reveal-answer">Show the reference answer</button>
+    <p id="reference-answer" lang="kk" hidden></p>
+  </div>
+  <p><strong>What changed?</strong> Choices provide recognition cues. The passage provides direct evidence. A model that selects the name but cannot produce it unassisted has a different result from a model that recalls it. Neither result alone establishes a particular internal memory mechanism.</p>
+  <p>In the CSV, <code>passage</code> is available to annotators and graders. It is withheld from the primary knowledge test. In a later source-supported condition, the same passage becomes part of the model input.</p>
+  <div class="callout">The excerpt establishes <strong>use of a term</strong> in this work. It does not establish first coinage, exclusive use, or why the author chose the name. An appealing interpretation of the name needs its own evidence.</div>
+</section>
+
+<section id="construction">
+  <div class="eyebrow">2 · From a book to a defensible label</div>
+  <h2>Six decisions behind each row</h2>
+  <ol>
+    <li><span class="step">Find a candidate.</span> Excel supplies a search lead. Its modern definition is an annotation, not automatically an authoritative historical fact.</li>
+    <li><span class="step">Read the source.</span> Verify the term in the actual OCR page and its surrounding explanation. Keep original author, translator, collected edition and original work distinct.</li>
+    <li><span class="step">Choose one target.</span> Decide whether the question asks for a historical name, a modern concept, a scientific explanation or an author's argument.</li>
+    <li><span class="step">Write both formats.</span> Keep the stem and target fixed. The MCQ adds alternatives; the short-answer version omits them.</li>
+    <li><span class="step">Challenge the answer.</span> A different agent checks support and distractors. Independent human review is a separate stage.</li>
+    <li><span class="step">Validate the export.</span> Check exact evidence, keys, field quotas, source pointers, review records and CSV round-trip integrity.</li>
+  </ol>
+  <p><strong>Provenance</strong> means the evidence trail behind an answer. Our row stores the OCR file, actual page ID, printed footer, original excerpt and a page hash. Python character offsets let us check <code>page[start:end] == passage</code>. A hash detects a changed file; it does not make a label true.</p>
+  <p><strong>A gold label</strong> is a trusted reference for evaluation. Our current reference answers are source-checked by agents but await human and scan verification. Review status makes that distinction visible.</p>
+  <div class="two">
+    <div class="card"><h3>A real leakage correction</h3><p>The draft asked which science Жұмабаев calls <span lang="kk">«тәрбие пәні»</span>, while naming the book <span lang="kk">«Педагогика»</span> in the question. The book title supplied the answer.</p><p>The reviewer removed the title from that question while preserving the author and factual target.</p></div>
+    <div class="card"><h3>A real evidence correction</h3><p>A farming question asked about alternating a cropping year with a fallow year. The first excerpt started after the defining sentence.</p><p>The reviewer expanded the exact source excerpt so the answer was supported inside the saved evidence itself.</p></div>
+  </div>
+  <p>All 160 pairs received independent agent review. <strong>44 records were revised</strong>, including wording, evidence, provenance, acceptable variants and distractors. A revision count is a record of work, not a numerical estimate of remaining error.</p>
+  <p><strong>Distractors</strong> are the incorrect alternatives. Good ones are plausible answers of the same type. For an anatomical term, other anatomical structures are useful alternatives. A planet, a poem and a farm tool would make the question easy for the wrong reason.</p>
+  <p>Historical statements also need careful framing. “What does the author describe?” tests fidelity to that source. “What is scientifically correct today?” requires separate modern evidence and expertise. We preserve historical wording without presenting every historical description as current consensus.</p>
+</section>
+
+<section id="checks">
+  <div class="eyebrow">3 · Make the ideas stick</div>
+  <h2>Three quick decisions</h2>
+  <p>Choose an answer, read the feedback, then explain the rule in your own words.</p>
+  <div class="card quiz" data-answer="1" data-explanation="Change one factor at a time. Repeat the same question and format with and without evidence to study the effect of source access.">
+    <h3>1. A model improves when you switch from short answer without a passage to MCQ with a passage. What caused the improvement?</h3>
+    <div class="quiz-options"><button type="button" data-index="0">The passage alone caused the gain.</button><button type="button" data-index="1">The two changes remain mixed together.</button><button type="button" data-index="2">The choices alone caused the gain.</button></div><p class="feedback" aria-live="polite"></p>
+  </div>
+  <div class="card quiz" data-answer="2" data-explanation="Two formats measure the same underlying target. Related concepts from shared sources can also be correlated. Keep the pair together and account for source groups.">
+    <h3>2. You have 160 pairs, each asked in two formats. How many concept/fact records are represented?</h3>
+    <div class="quiz-options"><button type="button" data-index="0">320 separate concept or fact records.</button><button type="button" data-index="1">80 separate concept or fact records.</button><button type="button" data-index="2">160 paired concept or fact records.</button></div><p class="feedback" aria-live="polite"></p>
+  </div>
+  <div class="card quiz" data-answer="0" data-explanation="A source-backed usage claim is narrower than a first-coinage claim. Establishing priority requires additional historical evidence.">
+    <h3>3. The text explicitly uses a term. What can you safely claim from that passage?</h3>
+    <div class="quiz-options"><button type="button" data-index="0">The author uses it in this work.</button><button type="button" data-index="1">The author first invented this term.</button><button type="button" data-index="2">No other author used this expression.</button></div><p class="feedback" aria-live="polite"></p>
+  </div>
+</section>
+
+<section id="evaluation">
+  <div class="eyebrow">4 · Design before running</div>
+  <h2>Four conditions, separate scores</h2>
+  <table><thead><tr><th>Format</th><th>No passage</th><th>With passage</th></tr></thead><tbody><tr><th>Short answer</th><td>Unassisted recall or explanation</td><td>Source-supported generation</td></tr><tr><th>MCQ</th><td>Recognition among alternatives</td><td>Source-supported selection</td></tr></tbody></table>
+  <p><strong>Construct validity</strong> asks whether the task measures the ability you intended. A title leaking the answer, absurd distractors, confusing grammar or broken OCR can change what the score measures.</p>
+  <p><strong>Leakage</strong> occurs when evaluation information reaches the model or your design process in a way that undermines the intended test. Sending the reference answer or explanation is direct leakage. Testing a short-answer companion after its MCQ in the same conversation also supplies a clue. Use fresh conversations.</p>
+  <p><strong>Development data</strong> is for choosing prompts, parsers and rubrics. <strong>Test data</strong> is held back for the frozen evaluation. The current CSV is marked <code>unassigned_pilot</code>. We have not claimed a held-out split. Related questions and repeated works should stay in the same split; a random row split can separate near duplicates.</p>
+  <p><strong>Balanced answer keys</strong> mean five A, five B, five C and five D answers in each field. This does not remove all position bias: repeat a development subset with alternative option orders to check sensitivity. The question wording, distractor quality and answer parser still matter. <a href="https://aclanthology.org/2024.findings-naacl.130/">Read the option-order study.</a></p>
+  <p>For user-facing answers, evaluate instruction/chat models with their supported templates and a recorded generation policy. Base models remain useful for the separate adaptation audit. Score generated answers for the user-facing track; next-token letter probabilities can disagree with the model's actual response. <a href="https://aclanthology.org/2024.findings-acl.441/">Read the generated-answer study.</a></p>
+  <details><summary>How should we grade a short answer?</summary><p>If the question requests <span lang="kk">«құлақ қошқары»</span>, a response giving only “cochlea” identifies the modern concept but misses the requested historical expression. If the question asks what the historical expression means, “cochlea” may be sufficient. The wording defines the grading target.</p><p><code>accepted_answers_json</code> helps with known variants. It is not an exhaustive list of every correct paraphrase. Human semantic grading is needed for explanations. Establish a rubric before looking at model performance, blind model identity, and adjudicate disagreements.</p></details>
+  <details><summary>How much can we infer from 20 items per field?</summary><p>One changed answer moves a field score by five percentage points. Small gaps can reflect question selection and source clustering. Report counts, paired differences and uncertainty. The two formats of a pair are not independent; several concepts on the same page can also be related.</p><p>The fields also have different task mixtures. Linguistics is mainly historical-term recall, while pedagogy includes explanations. A field difference cannot be attributed to discipline alone. The geometry section does not cover all mathematics.</p><p>A paired bootstrap resamples the same units for both models. For this collection, choose source/concept clusters carefully rather than treating every prompt as independent. <a href="https://aclanthology.org/W04-3250/">Read the bootstrap foundations.</a></p></details>
+</section>
+
+<section id="next">
+  <div class="eyebrow">5 · Your first independent contribution</div>
+  <h2>Build and defend three new pairs</h2>
+  <ol><li>Choose a different source section in one field. Find three definitions or explicit explanations.</li><li>Write the questions and reference answers before querying any model.</li><li>Save exact evidence and distinguish original author, translator and edition.</li><li>Write three plausible distractors for each target. Check that only one answer is supported.</li><li>Ask another reader to answer without seeing your key, then inspect the source together.</li><li>Explain each disagreement. Revise the item or mark it uncertain.</li></ol>
+  <p>Before implementing an evaluator, load the CSV and count the records yourself:</p>
+  <pre><code>import csv
+from collections import Counter
+
+with open('data/question_pairs.csv',
+          encoding='utf-8', newline='') as f:
+    pairs = list(csv.DictReader(f))
+
+print(len(pairs))                         # 160
+print(Counter(p['field'] for p in pairs))  # 20 per field
+</code></pre>
+  <p>Source passages contain real commas, quotation marks and newlines. Use a CSV parser; counting physical lines or splitting on commas will misread the data.</p>
+  <p>Return to this guide tomorrow and explain <em>recall versus recognition</em>, <em>format versus context</em>, and <em>source evidence versus modern annotation</em> without looking at the definitions. Ask a follow-up about any distinction you cannot explain with an example from your dataset.</p>
+  <p><a href="next-steps.md">Open the next-step plan</a> · <a href="data-dictionary.md">Read the data dictionary and grading notes</a> · <a href="../data/question_pairs.csv">Open the question CSV</a></p>
+</section>
+
+<section>
+  <h2>Read with a specific question in mind</h2>
+  <ul><li><a href="https://aclanthology.org/2025.acl-long.701/">KazMMLU</a>: how are questions sourced and validated for Kazakhstan-specific evaluation?</li><li><a href="https://arxiv.org/abs/2211.09110">HELM</a>: what gets lost when a model is represented by a single score?</li><li><a href="https://huggingface.co/learn/llm-course/chapter1/1">Hugging Face LLM Course</a>: how do tokenization, generation and dataset handling work?</li><li><a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing</a>: connect these experiments to language modeling, cross-entropy and question answering.</li><li><a href="https://huggingface.co/docs/hub/datasets-cards">Dataset cards</a>: how can another researcher understand what your resource covers and where it can fail?</li></ul>
+</section>
+<footer>Prepared for your Kazakh NLP project, 25 October 2026. Local educational document. All interactions run in this file; no model APIs are called. Before a public dataset release, verify original scans, human annotations and redistribution rights.</footer>
+</main>
+<script id="example-data" type="application/json">{"question": "Жүсіпбек Аймауытов «Психология» еңбегінде ішкі құлақтың «улитка» деп аталған бөлігін қазақша қалай атайды?", "passage": "Лаберентде құлақ қошқары (улитка) деген бөлім бар. Осы\nқұлақ қошқарының ішін микроскоппен қарасақ, «корти» мүшесі\nдеген бір мүше жолығады.", "answer": "Құлақ қошқары", "choices": ["Имек түтік", "Құлақ қошқары", "Құлақ иірімі", "Дабыл"], "correct": 1}</script>
+<script>
+const example = JSON.parse(document.getElementById('example-data').textContent);
+const choicesToggle = document.getElementById('show-choices');
+const evidenceToggle = document.getElementById('show-evidence');
+const options = document.getElementById('example-choices');
+document.getElementById('example-question').textContent = example.question;
+document.getElementById('example-evidence').textContent = example.passage;
+document.getElementById('reference-answer').textContent = 'Reference answer: ' + example.answer;
+example.choices.forEach((choice, i) => {
+  const li = document.createElement('li');
+  const button = document.createElement('button');
+  button.type = 'button'; button.textContent = 'ABCD'[i] + '. ' + choice;
+  button.addEventListener('click', () => {
+    options.querySelectorAll('button').forEach(b => b.dataset.selected = 'false');
+    button.dataset.selected = 'true';
+    document.getElementById('example-feedback').textContent = i === example.correct ? 'Correct. Now explain which part of the source supports it.' : 'This is another anatomical expression. Check the explicit equivalent in the passage.';
+  });
+  li.appendChild(button); options.appendChild(li);
+});
+function updateMode(){
+  options.hidden = !choicesToggle.checked;
+  document.getElementById('evidence-panel').hidden = !evidenceToggle.checked;
+  document.getElementById('mode').textContent = (choicesToggle.checked ? 'MCQ' : 'Short answer') + ' · ' + (evidenceToggle.checked ? 'with passage' : 'no passage');
+  document.getElementById('example-feedback').textContent = '';
+}
+choicesToggle.addEventListener('change', updateMode);
+evidenceToggle.addEventListener('change', updateMode);
+document.getElementById('reveal-answer').addEventListener('click', e => {
+  const answer = document.getElementById('reference-answer');
+  answer.hidden = !answer.hidden;
+  e.currentTarget.textContent = answer.hidden ? 'Show the reference answer' : 'Hide the reference answer';
+});
+document.querySelectorAll('.quiz').forEach(quiz => {
+  quiz.querySelectorAll('button').forEach(button => button.addEventListener('click', () => {
+    const correct = button.dataset.index === quiz.dataset.answer;
+    quiz.querySelector('.feedback').textContent = (correct ? 'Yes. ' : 'Try this distinction: ') + quiz.dataset.explanation;
+  }));
+});
+updateMode();
+</script>
+</body>
+</html>

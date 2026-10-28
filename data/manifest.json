@@ -1,0 +1,134 @@
+{
+  "dataset_version": "0.1.0-local-draft",
+  "created_date": "2026-10-25",
+  "pairs": 160,
+  "question_prompts": 320,
+  "fields": {
+    "linguistics_and_literary_theory": 20,
+    "psychology": 20,
+    "pedagogy_education": 20,
+    "biology_anatomy_physiology": 20,
+    "physics": 20,
+    "mathematics_geometry": 20,
+    "chemistry": 20,
+    "agronomy_botany": 20
+  },
+  "csv_columns": [
+    "id",
+    "concept_id",
+    "field",
+    "subfield",
+    "task_family",
+    "task_type",
+    "short_question",
+    "question",
+    "reference_answer",
+    "accepted_answers_json",
+    "mc_answer1",
+    "mc_answer2",
+    "mc_answer3",
+    "mc_answer4",
+    "correct_answer_num",
+    "answer_letter",
+    "passage",
+    "explanation",
+    "author",
+    "work",
+    "original_year",
+    "edition_year",
+    "source_ocr",
+    "source_page",
+    "printed_page",
+    "source_workbook",
+    "source_sheet",
+    "source_row",
+    "source_page_sha256",
+    "evidence_start_char",
+    "evidence_end_char",
+    "source_group_id",
+    "split",
+    "review_status",
+    "reviewer",
+    "human_review_status",
+    "scan_review_status",
+    "evidence_caveat",
+    "language"
+  ],
+  "csv_sha256": "030d19e29b84dc29e944af7ff4e24ad3d67d32f98624a0c03b59e90b4b59dd81",
+  "shuffle_seed": 20261025,
+  "answer_positions_by_field": {
+    "linguistics_and_literary_theory": {
+      "B": 5,
+      "D": 5,
+      "C": 5,
+      "A": 5
+    },
+    "psychology": {
+      "C": 5,
+      "D": 5,
+      "A": 5,
+      "B": 5
+    },
+    "pedagogy_education": {
+      "D": 5,
+      "C": 5,
+      "B": 5,
+      "A": 5
+    },
+    "biology_anatomy_physiology": {
+      "B": 5,
+      "A": 5,
+      "D": 5,
+      "C": 5
+    },
+    "physics": {
+      "D": 5,
+      "C": 5,
+      "B": 5,
+      "A": 5
+    },
+    "mathematics_geometry": {
+      "D": 5,
+      "C": 5,
+      "B": 5,
+      "A": 5
+    },
+    "chemistry": {
+      "A": 5,
+      "D": 5,
+      "B": 5,
+      "C": 5
+    },
+    "agronomy_botany": {
+      "C": 5,
+      "D": 5,
+      "A": 5,
+      "B": 5
+    }
+  },
+  "source_volumes": 12,
+  "source_pages": 107,
+  "task_families": {
+    "term_recall": 118,
+    "scholarly_discourse": 10,
+    "concept_identification": 21,
+    "scientific_explanation": 11
+  },
+  "peer_reviewed_items": 160,
+  "peer_review_revised_items": 44,
+  "human_review_status": "pending",
+  "scan_review_status": "pending_original_scans",
+  "distribution_rights": "not_assessed_do_not_publish_as_licensed",
+  "benchmark_executed": false,
+  "model_inference_executed": false,
+  "source_files_sha256": {
+    "source/drafts/biology_physics.jsonl": "b2e30a6620a275b036ed52e1bf1c6f1859c5da1ff879103e324c851fab2242e0",
+    "source/drafts/linguistics_psychology.jsonl": "486ed2af724cc6dd2dc6dde76c6b2cfb8cd689506f093cd25207fc860042c713",
+    "source/drafts/math_chemistry.jsonl": "123e5b0f254e67e0c1cadaa89b6d9564a47ff1431e1d0c7a10ea109f11662a3e",
+    "source/drafts/pedagogy_agronomy.jsonl": "1d4f3166c3a7b13a65660584f6796d689a9d2df293763009e1be4fa66d211b06",
+    "source/reviews/biology_physics_review.jsonl": "72be5431e3db4bd76a7e6d1d5485b356a63c784ff9f3465b12193c0bb3562976",
+    "source/reviews/linguistics_psychology_review.jsonl": "07771339521763a470c4874b5549c54a262e8b94b43fd88f0b49f95bbabb5c81",
+    "source/reviews/math_chemistry_review.jsonl": "b6e4ee3d4c9fb481ef6d9331efbd9929552ebf4e865afa9eb20958fd122cfaee",
+    "source/reviews/pedagogy_agronomy_review.jsonl": "926e64f950fd842f9dac1487876b0b5e958981144a92d8f566629fb7c0c972a8"
+  }
+}

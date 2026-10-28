@@ -1,0 +1,4715 @@
+{
+  "review_date": "2026-10-25",
+  "source_folder": "drive-download-20261025T151403Z-1-001",
+  "summary": {
+    "books": 39,
+    "ocr_files": 39,
+    "xlsx_files": 39,
+    "pages": 13195,
+    "words": 3678351,
+    "characters": 30886002,
+    "term_rows": 74535,
+    "historical_definitions": 7915,
+    "different_term_rows": 41405,
+    "unique_historical_strings": 50761,
+    "raw_exact_duplicate_books": [],
+    "normalized_exact_duplicate_books": [],
+    "images_present": 0,
+    "empty_pages": 4,
+    "replacement_characters": 0,
+    "shared_exact_pages_top": [
+      {
+        "a": "B17",
+        "b": "B28",
+        "pages": 1
+      },
+      {
+        "a": "B17",
+        "b": "B36",
+        "pages": 1
+      },
+      {
+        "a": "B28",
+        "b": "B36",
+        "pages": 1
+      },
+      {
+        "a": "B35",
+        "b": "B38",
+        "pages": 1
+      }
+    ],
+    "main_sheet_candidate_rows": 74520,
+    "supplementary_glossary_rows": 15,
+    "ocr_processing_message_records": 17
+  },
+  "books": [
+    {
+      "id": "B01",
+      "folder": "Аймауытов_Жүсіпбек__Алты_томдық_шығармалар_жинағы._Психология_жан_жүйесі_мен_өнер_таңдау._Том_4",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Психология, жан жүйесі мен өнер таңдау. Том 4",
+        "Авторы": "Аймауытов, Жүсіпбек",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151478&simple=true#"
+      },
+      "pages": 379,
+      "words": 109541,
+      "characters": 710773,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 2,
+      "page_id_max": 382,
+      "missing_page_ids": [
+        288,
+        291
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1274,
+      "replacement_characters": 0,
+      "term_rows": 3160,
+      "unique_pairs": 3160,
+      "historical_definitions": 357,
+      "different_term_rows": 2194,
+      "ref_min": 2,
+      "ref_max": 382,
+      "domains": [
+        [
+          "Психология",
+          302
+        ],
+        [
+          "Физиология",
+          82
+        ],
+        [
+          "Философия",
+          81
+        ],
+        [
+          "Психология, Философия",
+          72
+        ],
+        [
+          "Анатомия",
+          66
+        ],
+        [
+          "Педагогика",
+          60
+        ],
+        [
+          "Биология",
+          58
+        ],
+        [
+          "Философия, Психология",
+          52
+        ]
+      ],
+      "author_counts": [
+        [
+          "Аймауытов, Жүсіпбек",
+          3160
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          3160
+        ]
+      ],
+      "source_links": {
+        "web": 3160
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority",
+      "opportunity_note": "Psychology, physiology, historical scientific terminology"
+    },
+    {
+      "id": "B02",
+      "folder": "Асфендиаров_С._Ж.__Шығармалары",
+      "metadata": {
+        "Кітап атауы": "Шығармалары",
+        "Авторы": "Асфендиарұлы, С. Ж.",
+        "Жазылу жылы": "2014.0",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1177613&simple=true#"
+      },
+      "pages": 375,
+      "words": 116064,
+      "characters": 867080,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 377,
+      "missing_page_ids": [
+        293,
+        323
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 4769,
+      "replacement_characters": 0,
+      "term_rows": 2178,
+      "unique_pairs": 2178,
+      "historical_definitions": 89,
+      "different_term_rows": 989,
+      "ref_min": 3,
+      "ref_max": 376,
+      "domains": [
+        [
+          "Экономика",
+          71
+        ],
+        [
+          "Педагогика",
+          51
+        ],
+        [
+          "Тарих",
+          45
+        ],
+        [
+          "Медицина",
+          45
+        ],
+        [
+          "Саясаттану",
+          44
+        ],
+        [
+          "Білім беру",
+          41
+        ],
+        [
+          "Тарих, Саясаттану",
+          38
+        ],
+        [
+          "Ғылым",
+          33
+        ]
+      ],
+      "author_counts": [
+        [
+          "Асфендиаров, С. Ж.",
+          2178
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          2178
+        ]
+      ],
+      "source_links": {
+        "web": 2178
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Education and scholarly history; mixed collected writings"
+    },
+    {
+      "id": "B03",
+      "folder": "Байтұрсынұлы_Ахмет__Алты_томдық_шығармалар_жинағы._Мақалалар_хаттар_А.Байтұрсынұлы_туралы_құжаттар_мен_материалдар._Т._VI",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Мақалалар, хаттар, А.Байтұрсынұлы туралы құжаттар мен материалдар. Т. VI",
+        "Авторы": "Байтұрсынұлы Ахмет",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://adebiportal.kz/web/viewer.php?file=%2Fstorage%2Fupload%2Fiblock%2Fc04%2Fc045466cd852bb6604acdfa5524d49b6.pdf&ln=kz",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 371,
+      "words": 82509,
+      "characters": 633884,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        219,
+        224,
+        227,
+        229,
+        231,
+        296,
+        311
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1871,
+      "replacement_characters": 0,
+      "term_rows": 2655,
+      "unique_pairs": 2655,
+      "historical_definitions": 187,
+      "different_term_rows": 857,
+      "ref_min": 8,
+      "ref_max": 372,
+      "domains": [
+        [
+          "Әдебиеттану",
+          163
+        ],
+        [
+          "Тіл білімі",
+          126
+        ],
+        [
+          "Лингвистика",
+          84
+        ],
+        [
+          "Педагогика",
+          80
+        ],
+        [
+          "Тіл білімі (Лингвистика)",
+          45
+        ],
+        [
+          "Саясаттану",
+          41
+        ],
+        [
+          "Философия",
+          33
+        ],
+        [
+          "Экономика",
+          30
+        ]
+      ],
+      "author_counts": [
+        [
+          "Байтұрсынұлы Ахмет",
+          2655
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          2655
+        ]
+      ],
+      "source_links": {
+        "web": 2655
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Language and education essays; documents require individual attribution"
+    },
+    {
+      "id": "B04",
+      "folder": "Байтұрсынұлы_Ахмет__Алты_томдық_шығармалар_жинағы._Оқу_құралы._Т._II",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Оқу құралы. Т. II",
+        "Авторы": "Байтұрсынұлы Ахмет",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://adebiportal.kz/web/viewer.php?file=/storage/upload/iblock/92d/92d583f71a3a9330b46c1091615b730b.pdf&ln=kz",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 368,
+      "words": 119977,
+      "characters": 822663,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 391,
+      "missing_page_ids": [
+        32,
+        33,
+        35,
+        36,
+        38,
+        41,
+        43,
+        44,
+        48,
+        51,
+        53,
+        54,
+        62,
+        63,
+        64,
+        152,
+        153,
+        186,
+        197,
+        277,
+        291,
+        292,
+        295
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1766,
+      "replacement_characters": 0,
+      "term_rows": 2358,
+      "unique_pairs": 2358,
+      "historical_definitions": 282,
+      "different_term_rows": 1212,
+      "ref_min": 8,
+      "ref_max": 385,
+      "domains": [
+        [
+          "Зоология",
+          104
+        ],
+        [
+          "Биология",
+          79
+        ],
+        [
+          "Физика",
+          67
+        ],
+        [
+          "География",
+          65
+        ],
+        [
+          "Астрономия",
+          39
+        ],
+        [
+          "Ботаника",
+          30
+        ],
+        [
+          "Геология",
+          29
+        ],
+        [
+          "Экономика",
+          25
+        ]
+      ],
+      "author_counts": [
+        [
+          "Байтұрсынұлы Ахмет",
+          2358
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          2358
+        ]
+      ],
+      "source_links": {
+        "web": 2358
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Reading textbook with natural-science material"
+    },
+    {
+      "id": "B05",
+      "folder": "Байтұрсынұлы_Ахмет__Алты_томдық_шығармалар_жинағы._Т._1",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Т. 1",
+        "Авторы": "Байтұрсынұлы Ахмет",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://adebiportal.kz/web/viewer.php?file=%2Fstorage%2Fupload%2Fiblock%2Fbe4%2Fbe4cdce21782b968e5716d9e1d0a9d03.pdf&ln=kz",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 356,
+      "words": 69590,
+      "characters": 555967,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [
+        154,
+        161,
+        168,
+        188,
+        189,
+        190,
+        212,
+        213,
+        216,
+        219,
+        221,
+        226,
+        228,
+        230,
+        234,
+        238,
+        254,
+        255,
+        256,
+        259,
+        263,
+        264,
+        266,
+        267,
+        326,
+        336,
+        340
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 758,
+      "replacement_characters": 0,
+      "term_rows": 1225,
+      "unique_pairs": 1225,
+      "historical_definitions": 273,
+      "different_term_rows": 666,
+      "ref_min": 25,
+      "ref_max": 380,
+      "domains": [
+        [
+          "Әдебиеттану",
+          115
+        ],
+        [
+          "Философия",
+          38
+        ],
+        [
+          "Лингвистика",
+          25
+        ],
+        [
+          "Педагогика",
+          17
+        ],
+        [
+          "Әдебиеттану, Фольклористика",
+          16
+        ],
+        [
+          "Әдебиеттану / Поэтика",
+          16
+        ],
+        [
+          "Тіл білімі",
+          15
+        ],
+        [
+          "Әдебиеттану, Поэтика",
+          15
+        ]
+      ],
+      "author_counts": [
+        [
+          "Байтұрсынұлы Ахмет",
+          1225
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          1225
+        ]
+      ],
+      "source_links": {
+        "web": 1225
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Literary theory and terminology"
+    },
+    {
+      "id": "B06",
+      "folder": "Байтұрсынұлы_Ахмет__Алты_томдық_шығармалар_жинағы._Т._V",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Т. V",
+        "Авторы": "Байтұрсынұлы, Ахмет",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151514&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 361,
+      "words": 76161,
+      "characters": 650103,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        187,
+        207,
+        208
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1278,
+      "replacement_characters": 0,
+      "term_rows": 724,
+      "unique_pairs": 724,
+      "historical_definitions": 45,
+      "different_term_rows": 425,
+      "ref_min": 13,
+      "ref_max": 266,
+      "domains": [
+        [
+          "Педагогика",
+          22
+        ],
+        [
+          "Лингвистика",
+          19
+        ],
+        [
+          "Медицина",
+          15
+        ],
+        [
+          "Заң",
+          12
+        ],
+        [
+          "Саясаттану, Тарих",
+          10
+        ],
+        [
+          "Тіл білімі (Лингвистика)",
+          8
+        ],
+        [
+          "Лингвистика/Морфология",
+          8
+        ],
+        [
+          "Баспа ісі, Лингвистика",
+          7
+        ]
+      ],
+      "author_counts": [
+        [
+          "Байтұрсынұлы, Ахмет",
+          724
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          724
+        ]
+      ],
+      "source_links": {
+        "web": 724
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Educational and reading materials"
+    },
+    {
+      "id": "B07",
+      "folder": "Байтұрсынұлы_Ахмет__Алты_томдық_шығармалар_жинағы._Том_4",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Том 4",
+        "Авторы": "Байтұрсынұлы, Ахмет",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151506&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 380,
+      "words": 87255,
+      "characters": 645931,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [
+        60,
+        245,
+        308
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1670,
+      "replacement_characters": 0,
+      "term_rows": 1842,
+      "unique_pairs": 1842,
+      "historical_definitions": 142,
+      "different_term_rows": 1227,
+      "ref_min": 18,
+      "ref_max": 319,
+      "domains": [
+        [
+          "Заң",
+          131
+        ],
+        [
+          "Педагогика",
+          65
+        ],
+        [
+          "Заңтану",
+          43
+        ],
+        [
+          "Экономика",
+          37
+        ],
+        [
+          "Лингвистика",
+          29
+        ],
+        [
+          "Құқық",
+          28
+        ],
+        [
+          "Тіл білімі",
+          27
+        ],
+        [
+          "Саясаттану",
+          18
+        ]
+      ],
+      "author_counts": [
+        [
+          "Байтұрсынұлы, Ахмет",
+          1842
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          1842
+        ]
+      ],
+      "source_links": {
+        "web": 1842
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Reading, educational and other collected materials"
+    },
+    {
+      "id": "B08",
+      "folder": "Байтұрсынұлы_Ахмет__Алты_томдық_шығармалар_жинағы._Тіл_–_құрал_(қазақ_тілі_мен_оқу-ағартуға_қатысты_еңбектері)._Т._III",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. Тіл – құрал (қазақ тілі мен оқу-ағартуға қатысты еңбектері). Т. III",
+        "Авторы": "Байтұрсынұлы Ахмет",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://adebiportal.kz/web/viewer.php?file=%2Fstorage%2Fupload%2Fiblock%2F96f%2F96fd9fb2f4e330b73a19d668a9ce7c7f.pdf&ln=kz",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 342,
+      "words": 79242,
+      "characters": 722347,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [
+        132,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        193,
+        195,
+        196,
+        197,
+        198,
+        199,
+        206,
+        207,
+        208,
+        209,
+        211,
+        213,
+        215,
+        216,
+        217,
+        218,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        338,
+        339,
+        341,
+        342
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1034,
+      "replacement_characters": 0,
+      "term_rows": 1169,
+      "unique_pairs": 1169,
+      "historical_definitions": 258,
+      "different_term_rows": 714,
+      "ref_min": 23,
+      "ref_max": 366,
+      "domains": [
+        [
+          "Тіл білімі",
+          111
+        ],
+        [
+          "Лингвистика",
+          92
+        ],
+        [
+          "Фонетика",
+          46
+        ],
+        [
+          "Тіл білімі (Грамматика)",
+          45
+        ],
+        [
+          "Педагогика",
+          39
+        ],
+        [
+          "Тіл білімі (Морфология)",
+          37
+        ],
+        [
+          "Тіл білімі (фонетика)",
+          31
+        ],
+        [
+          "Лингвистика, Педагогика",
+          30
+        ]
+      ],
+      "author_counts": [
+        [
+          "Байтұрсынұлы Ахмет",
+          1169
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1169
+        ]
+      ],
+      "source_links": {
+        "web": 1169
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority",
+      "opportunity_note": "Linguistic terminology and grammatical concepts"
+    },
+    {
+      "id": "B09",
+      "folder": "Досмұхамедов_Халел__Таңдамалы",
+      "metadata": {
+        "Кітап атауы": "Таңдамалы",
+        "Авторы": "Досмұхамедов Халел",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1629790&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 240,
+      "words": 51957,
+      "characters": 401017,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 242,
+      "missing_page_ids": [
+        117,
+        118
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 103,
+      "replacement_characters": 0,
+      "term_rows": 1984,
+      "unique_pairs": 1984,
+      "historical_definitions": 389,
+      "different_term_rows": 1429,
+      "ref_min": 1,
+      "ref_max": 240,
+      "domains": [
+        [
+          "Биология",
+          168
+        ],
+        [
+          "Анатомия",
+          122
+        ],
+        [
+          "Медицина",
+          86
+        ],
+        [
+          "Химия",
+          57
+        ],
+        [
+          "Биология, Анатомия",
+          51
+        ],
+        [
+          "Биология (Анатомия)",
+          42
+        ],
+        [
+          "Биология, Медицина",
+          32
+        ],
+        [
+          "Биология, Гистология",
+          31
+        ]
+      ],
+      "author_counts": [
+        [
+          "Досмұхамедов Халел",
+          1984
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1984
+        ]
+      ],
+      "source_links": {
+        "web": 1984
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Biology, anatomy and scientific essays"
+    },
+    {
+      "id": "B10",
+      "folder": "Дулатұлы_Міржақып__Алты_томдық_шығармалар_жинағы._1-том",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы. 1-том",
+        "Авторы": "Дулатұлы, Міржақып",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151733&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 368,
+      "words": 67266,
+      "characters": 498436,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 368,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 428,
+      "replacement_characters": 0,
+      "term_rows": 1135,
+      "unique_pairs": 1135,
+      "historical_definitions": 97,
+      "different_term_rows": 589,
+      "ref_min": 5,
+      "ref_max": 364,
+      "domains": [
+        [
+          "Педагогика",
+          118
+        ],
+        [
+          "Философия",
+          81
+        ],
+        [
+          "Заң",
+          68
+        ],
+        [
+          "Саясаттану",
+          53
+        ],
+        [
+          "Әдебиеттану",
+          53
+        ],
+        [
+          "Құқық",
+          51
+        ],
+        [
+          "Экономика",
+          46
+        ],
+        [
+          "Әлеуметтану",
+          40
+        ]
+      ],
+      "author_counts": [
+        [
+          "Дулатұлы, Міржақып",
+          1135
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          1135
+        ]
+      ],
+      "source_links": {
+        "web": 1135
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Кіші сала(subfield)",
+            "E": "Заманауи түсініктеме",
+            "F": "Алаш түсініктемесі",
+            "G": "Анықтама бар ма",
+            "H": "Екі бет арасындағы мәтін -- контекст үшін",
+            "I": "Авторы",
+            "J": "Басталатын беті",
+            "K": "Аяқталу беті",
+            "L": "Жазылу жылы",
+            "M": "Сілтеме",
+            "N": "Ғылыми дискурсқа маңызы"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Literature and educational context"
+    },
+    {
+      "id": "B11",
+      "folder": "Дулатұлы_Міржақып__Алты_томдық_шығармалар_жинағы_1",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы_1",
+        "Авторы": "Дулатұлы, Міржақып",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151738&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 390,
+      "words": 105741,
+      "characters": 804754,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 392,
+      "missing_page_ids": [
+        257,
+        297
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1317,
+      "replacement_characters": 0,
+      "term_rows": 1687,
+      "unique_pairs": 1687,
+      "historical_definitions": 76,
+      "different_term_rows": 944,
+      "ref_min": 3,
+      "ref_max": 392,
+      "domains": [
+        [
+          "Заң",
+          69
+        ],
+        [
+          "Педагогика",
+          58
+        ],
+        [
+          "Медицина",
+          45
+        ],
+        [
+          "Құқық",
+          41
+        ],
+        [
+          "Саясаттану",
+          29
+        ],
+        [
+          "Тарих",
+          25
+        ],
+        [
+          "Экономика",
+          22
+        ],
+        [
+          "Әдебиеттану",
+          18
+        ]
+      ],
+      "author_counts": [
+        [
+          "Дулатұлы, Міржақып",
+          1687
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1687
+        ]
+      ],
+      "source_links": {
+        "web": 1687
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Essays and scholarly or publication history"
+    },
+    {
+      "id": "B12",
+      "folder": "Дулатұлы_Міржақып__Алты_томдық_шығармалар_жинағы_2",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы_2",
+        "Авторы": "Дулатұлы, Міржақып",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151744&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 399,
+      "words": 103270,
+      "characters": 913354,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 399,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 1971,
+      "replacement_characters": 0,
+      "term_rows": 2381,
+      "unique_pairs": 2381,
+      "historical_definitions": 104,
+      "different_term_rows": 1197,
+      "ref_min": 3,
+      "ref_max": 399,
+      "domains": [
+        [
+          "Педагогика",
+          83
+        ],
+        [
+          "Саясаттану",
+          56
+        ],
+        [
+          "Құқық",
+          49
+        ],
+        [
+          "Заңтану",
+          47
+        ],
+        [
+          "Экономика",
+          41
+        ],
+        [
+          "Медицина",
+          37
+        ],
+        [
+          "Әдебиеттану",
+          30
+        ],
+        [
+          "Педагогика, Әлеуметтану",
+          26
+        ]
+      ],
+      "author_counts": [
+        [
+          "Дулатұлы, Міржақып",
+          2381
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          2381
+        ]
+      ],
+      "source_links": {
+        "web": 2381
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Collected writings; inspect works individually"
+    },
+    {
+      "id": "B13",
+      "folder": "Дулатұлы_Міржақып__Алты_томдық_шығармалар_жинағы_3",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы_3",
+        "Авторы": "Дулатұлы, Міржақып",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/kk/bookView/view?brId=1151753&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 504,
+      "words": 103663,
+      "characters": 873754,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 504,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 1316,
+      "replacement_characters": 0,
+      "term_rows": 3263,
+      "unique_pairs": 3263,
+      "historical_definitions": 131,
+      "different_term_rows": 2282,
+      "ref_min": 3,
+      "ref_max": 504,
+      "domains": [
+        [
+          "Заң",
+          720
+        ],
+        [
+          "Заңтану",
+          126
+        ],
+        [
+          "Құқық",
+          125
+        ],
+        [
+          "Экономика",
+          101
+        ],
+        [
+          "Заң, Экономика",
+          95
+        ],
+        [
+          "Экономика, Қаржы",
+          69
+        ],
+        [
+          "Құқық (Заң)",
+          38
+        ],
+        [
+          "Құқық, Экономика",
+          37
+        ]
+      ],
+      "author_counts": [
+        [
+          "Дулатұлы, Міржақып",
+          3263
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          3263
+        ]
+      ],
+      "source_links": {
+        "web": 3263
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Legal and other collected materials; select only relevant scholarly items"
+    },
+    {
+      "id": "B14",
+      "folder": "Дулатұлы_Міржақып__Алты_томдық_шығармалар_жинағы_4",
+      "metadata": {
+        "Кітап атауы": "Алты томдық шығармалар жинағы_4",
+        "Авторы": "Дулатұлы, Міржақып",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151757&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 480,
+      "words": 102585,
+      "characters": 727712,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 480,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 2945,
+      "replacement_characters": 0,
+      "term_rows": 1599,
+      "unique_pairs": 1599,
+      "historical_definitions": 31,
+      "different_term_rows": 857,
+      "ref_min": 3,
+      "ref_max": 480,
+      "domains": [
+        [
+          "Заң",
+          102
+        ],
+        [
+          "Педагогика",
+          48
+        ],
+        [
+          "Медицина",
+          36
+        ],
+        [
+          "Құқық",
+          30
+        ],
+        [
+          "Әдебиеттану",
+          26
+        ],
+        [
+          "Саясаттану",
+          24
+        ],
+        [
+          "Білім беру",
+          19
+        ],
+        [
+          "Саясаттану, Құқық",
+          19
+        ]
+      ],
+      "author_counts": [
+        [
+          "Дулатұлы, Міржақып",
+          1599
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1599
+        ]
+      ],
+      "source_links": {
+        "web": 1599
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Documents and biographical context"
+    },
+    {
+      "id": "B15",
+      "folder": "Дәуірдің_жарық_жұлдызы",
+      "metadata": {
+        "Кітап атауы": "Дәуірдің жарық жұлдызы",
+        "Авторы": "",
+        "Жазылу жылы": "",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1154721&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 245,
+      "words": 46259,
+      "characters": 355888,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 247,
+      "missing_page_ids": [
+        21,
+        41
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 169,
+      "replacement_characters": 0,
+      "term_rows": 389,
+      "unique_pairs": 389,
+      "historical_definitions": 38,
+      "different_term_rows": 189,
+      "ref_min": 22,
+      "ref_max": 112,
+      "domains": [
+        [
+          "Тарих",
+          18
+        ],
+        [
+          "Заңтану",
+          15
+        ],
+        [
+          "География",
+          13
+        ],
+        [
+          "Құқық",
+          13
+        ],
+        [
+          "Саясаттану",
+          13
+        ],
+        [
+          "Тарих, Саясаттану",
+          6
+        ],
+        [
+          "Педагогика",
+          6
+        ],
+        [
+          "Білім/Педагогика",
+          6
+        ]
+      ],
+      "author_counts": [
+        [
+          "",
+          389
+        ]
+      ],
+      "year_counts": [
+        [
+          "",
+          389
+        ]
+      ],
+      "source_links": {
+        "web": 389
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Bibliography and biography of M. Tynyshpaev"
+    },
+    {
+      "id": "B16",
+      "folder": "Ермекұлы_Ә.__Ұлы_математика_курсы._I—BӨLІM",
+      "metadata": {
+        "Кітап атауы": "Ұлы математика курсы. I—BӨLІM",
+        "Авторы": "Ермекұлы Ә.",
+        "Жазылу жылы": "1931",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1520285&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 161,
+      "words": 65862,
+      "characters": 412625,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 161,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 1019,
+      "replacement_characters": 0,
+      "term_rows": 1715,
+      "unique_pairs": 1715,
+      "historical_definitions": 236,
+      "different_term_rows": 1584,
+      "ref_min": 4,
+      "ref_max": 159,
+      "domains": [
+        [
+          "Математика",
+          461
+        ],
+        [
+          "Математика (Геометрия)",
+          299
+        ],
+        [
+          "Геометрия",
+          169
+        ],
+        [
+          "Математика/Геометрия",
+          70
+        ],
+        [
+          "Математика (Алгебра)",
+          61
+        ],
+        [
+          "Математика, Геометрия",
+          39
+        ],
+        [
+          "Математика (Аналитикалық геометрия)",
+          38
+        ],
+        [
+          "Физика",
+          31
+        ]
+      ],
+      "author_counts": [
+        [
+          "Ермекұлы Ә.",
+          1715
+        ]
+      ],
+      "year_counts": [
+        [
+          "1931",
+          1715
+        ]
+      ],
+      "source_links": {
+        "web": 1715
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority after transcription review",
+      "opportunity_note": "Higher mathematics; historical script and formulas"
+    },
+    {
+      "id": "B17",
+      "folder": "Жұмабаев_Мағжан__Шығармалары._2-том",
+      "metadata": {
+        "Кітап атауы": "Шығармалары. 2-том",
+        "Авторы": "Жұмабаев, Мағжан",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151021&simple=true#",
+        "Алаш термині": "Заманауи термин",
+        "Тәрбие": "Адамды қалыптастыру процесі",
+        "Жан": "",
+        "Кәміл жас": "Кәмелетке толу (совершеннолетие)",
+        "Ақыл / Ес": "Интеллект және Жад",
+        "Түйін": "Теорема",
+        "Жарма": "Биссектриса",
+        "Керме": "Хорда"
+      },
+      "pages": 372,
+      "words": 78584,
+      "characters": 1311830,
+      "empty_pages": 4,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 376,
+      "missing_page_ids": [
+        28,
+        95,
+        97,
+        102
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 920,
+      "replacement_characters": 0,
+      "term_rows": 1105,
+      "unique_pairs": 1104,
+      "historical_definitions": 194,
+      "different_term_rows": 595,
+      "ref_min": 2,
+      "ref_max": 376,
+      "domains": [
+        [
+          "Психология",
+          65
+        ],
+        [
+          "Логика",
+          47
+        ],
+        [
+          "Педагогика",
+          32
+        ],
+        [
+          "Психология, Педагогика",
+          30
+        ],
+        [
+          "Психология, Философия",
+          29
+        ],
+        [
+          "Педагогика, Психология",
+          25
+        ],
+        [
+          "Медицина",
+          21
+        ],
+        [
+          "Философия",
+          20
+        ]
+      ],
+      "author_counts": [
+        [
+          "Жұмабаев, Мағжан",
+          1090
+        ],
+        [
+          "",
+          15
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1090
+        ],
+        [
+          "",
+          15
+        ]
+      ],
+      "source_links": {
+        "web": 1090,
+        "other": 15
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        },
+        {
+          "name": "Sheet1",
+          "headers": {},
+          "inferred": false
+        },
+        {
+          "name": "Sheet2",
+          "headers": {
+            "A": "Алаш термині",
+            "B": "Заманауи термин",
+            "C": "Ғылым саласы",
+            "D": "Танымдық негізі және түсіндірмесі"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority",
+      "opportunity_note": "Pedagogy and psychology; includes a supplementary 15-row glossary"
+    },
+    {
+      "id": "B18",
+      "folder": "Кеменгерұлы_Қошке__Үш_томдық_шығармалар_жинағы._Том_2",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. Том 2",
+        "Авторы": "Кеменгерұлы, Қошке",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151532&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 65,
+      "words": 14727,
+      "characters": 111596,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 326,
+      "missing_page_ids": [
+        16,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 302,
+      "replacement_characters": 0,
+      "term_rows": 410,
+      "unique_pairs": 410,
+      "historical_definitions": 40,
+      "different_term_rows": 244,
+      "ref_min": 22,
+      "ref_max": 326,
+      "domains": [
+        [
+          "Лингвистика/Педагогика",
+          18
+        ],
+        [
+          "Тіл білімі",
+          17
+        ],
+        [
+          "Тіл білімі (морфология)",
+          10
+        ],
+        [
+          "Лингвистика/Грамматика/Педагогика",
+          9
+        ],
+        [
+          "Ауыл шаруашылығы",
+          8
+        ],
+        [
+          "Саясаттану / Тарих",
+          8
+        ],
+        [
+          "Педагогика",
+          7
+        ],
+        [
+          "Техника, Ауыл шаруашылығы",
+          7
+        ]
+      ],
+      "author_counts": [
+        [
+          "Кеменгерұлы, Қошке",
+          410
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          410
+        ]
+      ],
+      "source_links": {
+        "web": 410
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Language teaching; OCR page coverage is sparse"
+    },
+    {
+      "id": "B19",
+      "folder": "Кемеңгерұлы_Қошке__Үш_томдық_шығармалар_жинағы",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы",
+        "Авторы": "Кемеңгерұлы, Қошке",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151524&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 378,
+      "words": 88743,
+      "characters": 647315,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1863,
+      "replacement_characters": 0,
+      "term_rows": 1871,
+      "unique_pairs": 1871,
+      "historical_definitions": 76,
+      "different_term_rows": 1027,
+      "ref_min": 35,
+      "ref_max": 371,
+      "domains": [
+        [
+          "Ауыл шаруашылығы",
+          44
+        ],
+        [
+          "Медицина",
+          40
+        ],
+        [
+          "Экономика",
+          35
+        ],
+        [
+          "Педагогика",
+          35
+        ],
+        [
+          "Саясаттану",
+          33
+        ],
+        [
+          "Әлеуметтану",
+          27
+        ],
+        [
+          "Білім беру",
+          24
+        ],
+        [
+          "Тарих",
+          23
+        ]
+      ],
+      "author_counts": [
+        [
+          "Кемеңгерұлы, Қошке",
+          1871
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          1871
+        ]
+      ],
+      "source_links": {
+        "web": 1871
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Agricultural, educational and other collected writings"
+    },
+    {
+      "id": "B20",
+      "folder": "Кемеңгерұлы_Қошке__Үш_томдық_шығармалар_жинағы._Том_3",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. Том 3",
+        "Авторы": "Кемеңгерұлы, Қошке",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151536&simple=true",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 383,
+      "words": 101448,
+      "characters": 871959,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 1906,
+      "replacement_characters": 0,
+      "term_rows": 4266,
+      "unique_pairs": 4266,
+      "historical_definitions": 2211,
+      "different_term_rows": 3275,
+      "ref_min": 15,
+      "ref_max": 379,
+      "domains": [
+        [
+          "Химия",
+          729
+        ],
+        [
+          "Физика",
+          113
+        ],
+        [
+          "Тіл білімі (Лингвистика)",
+          97
+        ],
+        [
+          "Медицина",
+          86
+        ],
+        [
+          "Химия, Физика",
+          81
+        ],
+        [
+          "Биология",
+          71
+        ],
+        [
+          "Лингвистика",
+          66
+        ],
+        [
+          "Физика, Химия",
+          63
+        ]
+      ],
+      "author_counts": [
+        [
+          "Кемеңгерұлы, Қошке",
+          4266
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          4266
+        ]
+      ],
+      "source_links": {
+        "web": 4266
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority",
+      "opportunity_note": "Chemistry translation and dictionary; distinguish translator and co-compilers"
+    },
+    {
+      "id": "B21",
+      "folder": "Күдерин_Жұмақан__Қант_қызылшасы",
+      "metadata": {
+        "Кітап атауы": "Қант қызылшасы",
+        "Авторы": "Күдерин Жұмақан",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1527542&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 48,
+      "words": 9198,
+      "characters": 64123,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 69,
+      "missing_page_ids": [
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        22,
+        23,
+        24,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        46,
+        47,
+        48,
+        52,
+        53,
+        54
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 321,
+      "replacement_characters": 0,
+      "term_rows": 672,
+      "unique_pairs": 672,
+      "historical_definitions": 50,
+      "different_term_rows": 636,
+      "ref_min": 1,
+      "ref_max": 69,
+      "domains": [
+        [
+          "Агрономия",
+          37
+        ],
+        [
+          "Энтомология",
+          24
+        ],
+        [
+          "Ботаника",
+          22
+        ],
+        [
+          "Agronomy",
+          21
+        ],
+        [
+          "Ауыл шаруашылығы",
+          20
+        ],
+        [
+          "Биология",
+          18
+        ],
+        [
+          "Энтомология, Ауыл шаруашылығы",
+          14
+        ],
+        [
+          "Фитопатология, агрономия",
+          12
+        ]
+      ],
+      "author_counts": [
+        [
+          "Күдерин Жұмақан",
+          672
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          672
+        ]
+      ],
+      "source_links": {
+        "web": 672
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority after transcription review",
+      "opportunity_note": "Agronomy; historical Latin script"
+    },
+    {
+      "id": "B22",
+      "folder": "МІРЖАҚЫП_ДУЛАТҰЛЫ__АЛТЫ_ТОМДЫҚ_ШЫҒАРМАЛАР_ЖИНАҒЫ._4-том._Ағартушылық_бағыттағы_еңбектері_мен_оқу_құралдары",
+      "metadata": {
+        "Кітап атауы": "АЛТЫ ТОМДЫҚ ШЫҒАРМАЛАР ЖИНАҒЫ. 4-том. Ағартушылық бағыттағы еңбектері мен оқу құралдары",
+        "Авторы": "МІРЖАҚЫП ДУЛАТҰЛЫ",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://adebiportal.kz/web/viewer.php?file=%2Fstorage%2Fupload%2Fiblock%2F0cb%2F0cb58d0359e2e3e6d797fb9a6881e40c.pdf&ln=kz",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 342,
+      "words": 83936,
+      "characters": 534815,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 344,
+      "missing_page_ids": [
+        37,
+        326
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 256,
+      "replacement_characters": 0,
+      "term_rows": 1278,
+      "unique_pairs": 1278,
+      "historical_definitions": 92,
+      "different_term_rows": 581,
+      "ref_min": 13,
+      "ref_max": 338,
+      "domains": [
+        [
+          "Педагогика",
+          48
+        ],
+        [
+          "Математика, Педагогика",
+          48
+        ],
+        [
+          "Математика",
+          44
+        ],
+        [
+          "Медицина",
+          43
+        ],
+        [
+          "Математика (Арифметика)",
+          24
+        ],
+        [
+          "Экономика",
+          22
+        ],
+        [
+          "Биология",
+          17
+        ],
+        [
+          "Ауыл шаруашылығы",
+          13
+        ]
+      ],
+      "author_counts": [
+        [
+          "МІРЖАҚЫП ДУЛАТҰЛЫ",
+          1278
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1278
+        ]
+      ],
+      "source_links": {
+        "web": 1278
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority",
+      "opportunity_note": "Educational works, arithmetic and reading textbooks"
+    },
+    {
+      "id": "B23",
+      "folder": "НӘЗІР_ТӨРЕҚҰЛОВ__КӨП_ТОМДЫҚ_ШЫҒАРМАЛАР_ЖИНАҒЫ._2._Доклады_выступления_письма",
+      "metadata": {
+        "Кітап атауы": "КӨП ТОМДЫҚ ШЫҒАРМАЛАР ЖИНАҒЫ. 2. Доклады, выступления, письма",
+        "Авторы": "НӘЗІР ТӨРЕҚҰЛОВ",
+        "Жазылу жылы": "2007",
+        "Сілтеме": "/Users/almubdimutaikhan/Desktop/Research/alash-term-extractor/pdf/torekulov_nzir_shygarmalary_tom_2.pdf",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 255,
+      "words": 57716,
+      "characters": 440334,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 256,
+      "missing_page_ids": [
+        140
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 607,
+      "replacement_characters": 0,
+      "term_rows": 1229,
+      "unique_pairs": 1229,
+      "historical_definitions": 12,
+      "different_term_rows": 762,
+      "ref_min": 5,
+      "ref_max": 255,
+      "domains": [
+        [
+          "Экономика",
+          32
+        ],
+        [
+          "Саясаттану",
+          26
+        ],
+        [
+          "Педагогика",
+          24
+        ],
+        [
+          "Білім беру",
+          17
+        ],
+        [
+          "Тарих",
+          14
+        ],
+        [
+          "Құқық",
+          14
+        ],
+        [
+          "Педагогика, Әлеуметтану",
+          13
+        ],
+        [
+          "Тіл білімі",
+          11
+        ]
+      ],
+      "author_counts": [
+        [
+          "НӘЗІР ТӨРЕҚҰЛОВ",
+          1229
+        ]
+      ],
+      "year_counts": [
+        [
+          "2007",
+          1229
+        ]
+      ],
+      "source_links": {
+        "local": 1229
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Collected reports and documents; select scholarly passages"
+    },
+    {
+      "id": "B24",
+      "folder": "НӘЗІР_ТӨРЕҚҰЛОВ__КӨП_ТОМДЫҚ_ШЫҒАРМАЛАР_ЖИНАҒЫ._3-том_Баяндамалар_естеліктер_зерттеулер",
+      "metadata": {
+        "Кітап атауы": "КӨП ТОМДЫҚ ШЫҒАРМАЛАР ЖИНАҒЫ. 3-том: Баяндамалар, естеліктер, зерттеулер",
+        "Авторы": "НӘЗІР ТӨРЕҚҰЛОВ",
+        "Жазылу жылы": "2007",
+        "Сілтеме": "/Users/almubdimutaikhan/Desktop/Research/alash-term-extractor/pdf/torekulov_nzir_shygarmalary_tom_3.pdf",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 286,
+      "words": 132287,
+      "characters": 680041,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 288,
+      "missing_page_ids": [
+        117,
+        118
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1135,
+      "replacement_characters": 0,
+      "term_rows": 1972,
+      "unique_pairs": 1972,
+      "historical_definitions": 107,
+      "different_term_rows": 844,
+      "ref_min": 1,
+      "ref_max": 288,
+      "domains": [
+        [
+          "Саясаттану",
+          54
+        ],
+        [
+          "Педагогика",
+          52
+        ],
+        [
+          "Лингвистика",
+          48
+        ],
+        [
+          "Тіл білімі",
+          41
+        ],
+        [
+          "Тарих",
+          34
+        ],
+        [
+          "Әдебиеттану",
+          32
+        ],
+        [
+          "Экономика",
+          30
+        ],
+        [
+          "Білім",
+          21
+        ]
+      ],
+      "author_counts": [
+        [
+          "НӘЗІР ТӨРЕҚҰЛОВ",
+          1972
+        ]
+      ],
+      "year_counts": [
+        [
+          "2007",
+          1972
+        ]
+      ],
+      "source_links": {
+        "local": 1972
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Language and education within collected writings"
+    },
+    {
+      "id": "B25",
+      "folder": "НӘЗІР_ТӨРЕҚҰЛОВ__Шығармаларының_көп_томдық_жинағы._1-том._Зерттеулер_мақалалар",
+      "metadata": {
+        "Кітап атауы": "Шығармаларының көп томдық жинағы. 1-том. Зерттеулер, мақалалар",
+        "Авторы": "НӘЗІР ТӨРЕҚҰЛОВ",
+        "Жазылу жылы": "2007",
+        "Сілтеме": "/Users/almubdimutaikhan/Desktop/Research/alash-term-extractor/pdf/torekulov_nzir_shygarmalary_tom_1.pdf",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 263,
+      "words": 62110,
+      "characters": 489963,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 263,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 1138,
+      "replacement_characters": 0,
+      "term_rows": 1612,
+      "unique_pairs": 1612,
+      "historical_definitions": 55,
+      "different_term_rows": 545,
+      "ref_min": 3,
+      "ref_max": 263,
+      "domains": [
+        [
+          "Экономика",
+          53
+        ],
+        [
+          "Саясаттану",
+          44
+        ],
+        [
+          "Педагогика",
+          37
+        ],
+        [
+          "Тарих",
+          29
+        ],
+        [
+          "Тарих, Саясаттану",
+          27
+        ],
+        [
+          "Әдебиеттану",
+          26
+        ],
+        [
+          "Философия",
+          23
+        ],
+        [
+          "Саясаттану, Тарих",
+          23
+        ]
+      ],
+      "author_counts": [
+        [
+          "НӘЗІР ТӨРЕҚҰЛОВ",
+          1612
+        ]
+      ],
+      "year_counts": [
+        [
+          "2007",
+          1612
+        ]
+      ],
+      "source_links": {
+        "local": 1612
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Language, publishing and scholarly discourse"
+    },
+    {
+      "id": "B26",
+      "folder": "Омарұлы_Елдес__Үш_томдық_шығармалар_жинағы._II_том._Физика",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. II том. Физика",
+        "Авторы": "Омарұлы Елдес",
+        "Жазылу жылы": "1923",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1597551&simple=true#"
+      },
+      "pages": 409,
+      "words": 143112,
+      "characters": 1037323,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 409,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 163,
+      "replacement_characters": 0,
+      "term_rows": 3745,
+      "unique_pairs": 3745,
+      "historical_definitions": 695,
+      "different_term_rows": 3015,
+      "ref_min": 6,
+      "ref_max": 406,
+      "domains": [
+        [
+          "Физика",
+          941
+        ],
+        [
+          "Химия",
+          213
+        ],
+        [
+          "Техника",
+          158
+        ],
+        [
+          "Физика (Оптика)",
+          139
+        ],
+        [
+          "Геометрия",
+          89
+        ],
+        [
+          "Математика",
+          71
+        ],
+        [
+          "Физика, Химия",
+          59
+        ],
+        [
+          "Физика (Механика)",
+          47
+        ]
+      ],
+      "author_counts": [
+        [
+          "Омарұлы Елдес",
+          3745
+        ]
+      ],
+      "year_counts": [
+        [
+          "1923.0",
+          3745
+        ]
+      ],
+      "source_links": {
+        "web": 3745
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority",
+      "opportunity_note": "Physics and historical scientific terminology"
+    },
+    {
+      "id": "B27",
+      "folder": "Омарұлы_Елдес__Үш_томдық_шығармалар_жинағы._I_Том",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. I Том",
+        "Авторы": "Омарұлы Елдес",
+        "Жазылу жылы": "",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1597544&simple=true"
+      },
+      "pages": 374,
+      "words": 143973,
+      "characters": 1045294,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 401,
+      "missing_page_ids": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        212,
+        214,
+        215,
+        216,
+        220,
+        221,
+        222
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1409,
+      "replacement_characters": 0,
+      "term_rows": 2869,
+      "unique_pairs": 2869,
+      "historical_definitions": 231,
+      "different_term_rows": 2175,
+      "ref_min": 25,
+      "ref_max": 385,
+      "domains": [
+        [
+          "Заң",
+          355
+        ],
+        [
+          "Тіл білімі",
+          148
+        ],
+        [
+          "Заң, Экономика",
+          108
+        ],
+        [
+          "Экономика",
+          97
+        ],
+        [
+          "Заңтану",
+          83
+        ],
+        [
+          "Құқық",
+          75
+        ],
+        [
+          "Экономика, Заң",
+          61
+        ],
+        [
+          "Лингвистика/Педагогика",
+          37
+        ]
+      ],
+      "author_counts": [
+        [
+          "Омарұлы Елдес",
+          2869
+        ]
+      ],
+      "year_counts": [
+        [
+          "",
+          2869
+        ]
+      ],
+      "source_links": {
+        "web": 2869
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Linguistic and other collected scholarly writings"
+    },
+    {
+      "id": "B28",
+      "folder": "Омарұлы_Елдес__Үш_томдық_шығармалар_жинағы._ІІІ_Том",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. ІІІ Том",
+        "Авторы": "Омарұлы Елдес",
+        "Жазылу жылы": "2018",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1597552&simple=true#"
+      },
+      "pages": 421,
+      "words": 111357,
+      "characters": 781006,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 421,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 361,
+      "replacement_characters": 0,
+      "term_rows": 1519,
+      "unique_pairs": 1519,
+      "historical_definitions": 229,
+      "different_term_rows": 1184,
+      "ref_min": 5,
+      "ref_max": 403,
+      "domains": [
+        [
+          "Геометрия",
+          523
+        ],
+        [
+          "Математика (Геометрия)",
+          377
+        ],
+        [
+          "Математика",
+          133
+        ],
+        [
+          "Математика/Геометрия",
+          38
+        ],
+        [
+          "Математика (Тригонометрия)",
+          18
+        ],
+        [
+          "Математика (Арифметика)",
+          17
+        ],
+        [
+          "Математика, Геометрия",
+          12
+        ],
+        [
+          "математика (геометрия)",
+          11
+        ]
+      ],
+      "author_counts": [
+        [
+          "Омарұлы Елдес",
+          1519
+        ]
+      ],
+      "year_counts": [
+        [
+          "2018.0",
+          1519
+        ]
+      ],
+      "source_links": {
+        "web": 1519
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": {
+        "processed_pages": 397,
+        "last_processed_page": 403,
+        "state_terms": 1645
+      },
+      "recommended_use": "Priority",
+      "opportunity_note": "Geometry; distinguish original works, translations and editions"
+    },
+    {
+      "id": "B29",
+      "folder": "Санжар_Асфендияров__Санжар_Асфендияров",
+      "metadata": {
+        "Кітап атауы": "Санжар Асфендияров Өнегелі Өмір",
+        "Авторы": "Санжар Асфендиярұлы",
+        "Жазылу жылы": "",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1590948&simple=true"
+      },
+      "pages": 378,
+      "words": 113344,
+      "characters": 876754,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 25,
+      "page_id_max": 402,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 3997,
+      "replacement_characters": 0,
+      "term_rows": 2764,
+      "unique_pairs": 2764,
+      "historical_definitions": 61,
+      "different_term_rows": 992,
+      "ref_min": 25,
+      "ref_max": 399,
+      "domains": [
+        [
+          "Білім беру",
+          80
+        ],
+        [
+          "Тарих",
+          69
+        ],
+        [
+          "Білім",
+          69
+        ],
+        [
+          "Педагогика",
+          69
+        ],
+        [
+          "Саясаттану, Тарих",
+          65
+        ],
+        [
+          "Экономика",
+          46
+        ],
+        [
+          "Ғылым",
+          44
+        ],
+        [
+          "Саясаттану",
+          40
+        ]
+      ],
+      "author_counts": [
+        [
+          "Санжар Асфендияров",
+          2764
+        ]
+      ],
+      "year_counts": [
+        [
+          "",
+          2764
+        ]
+      ],
+      "source_links": {
+        "web": 2764
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Biography, scholarly history and collected materials"
+    },
+    {
+      "id": "B30",
+      "folder": "Сәтбаев_Қ.__Тандамалы",
+      "metadata": {
+        "Кітап атауы": "Тандамалы",
+        "Авторы": "Сәтбаев, Қ.",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/kk/bookView/view?brId=129782&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 384,
+      "words": 96627,
+      "characters": 1149857,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 392,
+      "missing_page_ids": [
+        31,
+        59,
+        93,
+        327,
+        330,
+        331,
+        332,
+        333
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 144,
+      "replacement_characters": 0,
+      "term_rows": 3692,
+      "unique_pairs": 3692,
+      "historical_definitions": 37,
+      "different_term_rows": 1149,
+      "ref_min": 6,
+      "ref_max": 388,
+      "domains": [
+        [
+          "Геология",
+          132
+        ],
+        [
+          "Химия",
+          100
+        ],
+        [
+          "Геология, Тау-кен ісі",
+          76
+        ],
+        [
+          "Металлургия",
+          61
+        ],
+        [
+          "Экономика",
+          57
+        ],
+        [
+          "Жалпы ғылым",
+          51
+        ],
+        [
+          "География",
+          38
+        ],
+        [
+          "Ботаника",
+          37
+        ]
+      ],
+      "author_counts": [
+        [
+          "Сәтбаев, Қ.",
+          3692
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          3692
+        ]
+      ],
+      "source_links": {
+        "web": 3692
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Анықтама бар ма",
+            "G": "Екі бет арасындағы мәтін -- контекст үшін",
+            "H": "Авторы",
+            "I": "Басталатын беті",
+            "J": "Аяқталу беті",
+            "K": "Жазылу жылы",
+            "L": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Adjacent scientific heritage",
+      "opportunity_note": "Geology and scientific institutions; define its relation to the core author list"
+    },
+    {
+      "id": "B31",
+      "folder": "Шонанұлы_Телжан__Бес_томдық_шығармалар_жинағы_1",
+      "metadata": {
+        "Кітап атауы": "Бес томдық шығармалар жинағы_1",
+        "Авторы": "Шонанұлы Телжан",
+        "Жазылу жылы": "1927.0",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1561557&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 242,
+      "words": 95469,
+      "characters": 908886,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 257,
+      "missing_page_ids": [
+        26,
+        27,
+        32,
+        34,
+        40,
+        41,
+        47,
+        48,
+        49,
+        141,
+        150,
+        153,
+        154,
+        208,
+        217
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 2248,
+      "replacement_characters": 0,
+      "term_rows": 1914,
+      "unique_pairs": 1914,
+      "historical_definitions": 266,
+      "different_term_rows": 1059,
+      "ref_min": 8,
+      "ref_max": 256,
+      "domains": [
+        [
+          "Физика",
+          52
+        ],
+        [
+          "Биология",
+          45
+        ],
+        [
+          "Ботаника",
+          42
+        ],
+        [
+          "Зоология",
+          41
+        ],
+        [
+          "Геология",
+          40
+        ],
+        [
+          "зоология",
+          32
+        ],
+        [
+          "География",
+          31
+        ],
+        [
+          "Астрономия",
+          30
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шонанұлы Телжан",
+          1914
+        ]
+      ],
+      "year_counts": [
+        [
+          "1927.0",
+          1914
+        ]
+      ],
+      "source_links": {
+        "web": 1914
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Reading textbook and science; coauthored works require attribution"
+    },
+    {
+      "id": "B32",
+      "folder": "Шонанұлы_Телжан__Бес_томдық_шығармалар_жинағы_2",
+      "metadata": {
+        "Кітап атауы": "Бес томдық шығармалар жинағы_2",
+        "Авторы": "Шонанұлы Телжан",
+        "Жазылу жылы": "1935.0",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1561567&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 256,
+      "words": 63506,
+      "characters": 744398,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 257,
+      "missing_page_ids": [
+        245
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1591,
+      "replacement_characters": 0,
+      "term_rows": 1502,
+      "unique_pairs": 1502,
+      "historical_definitions": 82,
+      "different_term_rows": 1013,
+      "ref_min": 4,
+      "ref_max": 256,
+      "domains": [
+        [
+          "Педагогика",
+          123
+        ],
+        [
+          "Тіл білімі",
+          67
+        ],
+        [
+          "Лингвистика",
+          50
+        ],
+        [
+          "Тіл білімі (Морфология)",
+          34
+        ],
+        [
+          "Тіл білімі (Фонетика)",
+          29
+        ],
+        [
+          "Тіл білімі (фонетика)",
+          29
+        ],
+        [
+          "Лингвистика (фонетика)",
+          20
+        ],
+        [
+          "Фонетика",
+          18
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шонанұлы Телжан",
+          1502
+        ]
+      ],
+      "year_counts": [
+        [
+          "1935.0",
+          1502
+        ]
+      ],
+      "source_links": {
+        "web": 1502
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Literacy and teaching methodology; coauthored works require attribution"
+    },
+    {
+      "id": "B33",
+      "folder": "Шонанұлы_Телжан__Үш_томдық_шығармалар_жинағы._1-том",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. 1-том",
+        "Авторы": "Шонанұлы, Телжан",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151544&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 383,
+      "words": 67372,
+      "characters": 513564,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 383,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 1057,
+      "replacement_characters": 0,
+      "term_rows": 1878,
+      "unique_pairs": 1878,
+      "historical_definitions": 295,
+      "different_term_rows": 1335,
+      "ref_min": 21,
+      "ref_max": 377,
+      "domains": [
+        [
+          "Экономика",
+          177
+        ],
+        [
+          "Ауыл шаруашылығы",
+          137
+        ],
+        [
+          "Педагогика",
+          130
+        ],
+        [
+          "Лингвистика",
+          111
+        ],
+        [
+          "Биология",
+          109
+        ],
+        [
+          "Саясаттану",
+          93
+        ],
+        [
+          "Тіл білімі",
+          83
+        ],
+        [
+          "Техника",
+          81
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шонанұлы, Телжан",
+          1878
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013",
+          1878
+        ]
+      ],
+      "source_links": {
+        "web": 1878
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Кіші сала(subfield)",
+            "E": "Заманауи түсініктеме",
+            "F": "Алаш түсініктемесі",
+            "G": "Анықтама бар ма",
+            "H": "Екі бет арасындағы мәтін -- контекст үшін",
+            "I": "Авторы",
+            "J": "Басталатын беті",
+            "K": "Аяқталу беті",
+            "L": "Жазылу жылы",
+            "M": "Сілтеме",
+            "N": "Ғылыми дискурсқа маңызы"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Education and agricultural or economic material"
+    },
+    {
+      "id": "B34",
+      "folder": "Шонанұлы_Телжан__Үш_томдық_шығармалар_жинағы._Т._3",
+      "metadata": {
+        "Кітап атауы": "Үш томдық шығармалар жинағы. Т. 3",
+        "Авторы": "Шонанұлы Телжан",
+        "Жазылу жылы": "1929.0",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1151548&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 375,
+      "words": 101697,
+      "characters": 739595,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 2,
+      "page_id_max": 377,
+      "missing_page_ids": [
+        138
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 2493,
+      "replacement_characters": 0,
+      "term_rows": 2257,
+      "unique_pairs": 2257,
+      "historical_definitions": 131,
+      "different_term_rows": 1192,
+      "ref_min": 2,
+      "ref_max": 377,
+      "domains": [
+        [
+          "Педагогика",
+          104
+        ],
+        [
+          "Тіл білімі (Фонетика)",
+          59
+        ],
+        [
+          "Экономика",
+          54
+        ],
+        [
+          "Құқық",
+          32
+        ],
+        [
+          "Лингвистика",
+          24
+        ],
+        [
+          "География",
+          23
+        ],
+        [
+          "Лингвистика, Педагогика",
+          23
+        ],
+        [
+          "Педагогика, Әдістеме",
+          21
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шонанұлы Телжан",
+          2257
+        ]
+      ],
+      "year_counts": [
+        [
+          "1929.0",
+          2257
+        ]
+      ],
+      "source_links": {
+        "web": 2257
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Select excerpts",
+      "opportunity_note": "Language, teaching and other collected writings"
+    },
+    {
+      "id": "B35",
+      "folder": "Шоқай_Мұстафа__Тандамалы_шығармалар",
+      "metadata": {
+        "Кітап атауы": "Тандамалы шығармалар",
+        "Авторы": "Шоқай, Мұстафа",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1110594&simple=true#"
+      },
+      "pages": 392,
+      "words": 139720,
+      "characters": 1788631,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 392,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 4146,
+      "replacement_characters": 0,
+      "term_rows": 1515,
+      "unique_pairs": 1515,
+      "historical_definitions": 40,
+      "different_term_rows": 307,
+      "ref_min": 6,
+      "ref_max": 384,
+      "domains": [
+        [
+          "Саясаттану",
+          122
+        ],
+        [
+          "Саясаттану, Тарих",
+          66
+        ],
+        [
+          "Экономика",
+          46
+        ],
+        [
+          "Тарих, Саясаттану",
+          33
+        ],
+        [
+          "Саясаттану, Халықаралық қатынастар",
+          30
+        ],
+        [
+          "Саясаттану, Әлеуметтану",
+          24
+        ],
+        [
+          "Құқық",
+          23
+        ],
+        [
+          "Халықаралық қатынастар, Саясаттану",
+          23
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шоқай, Мұстафа",
+          1515
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1515
+        ]
+      ],
+      "source_links": {
+        "web": 1515
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Use verified scholarly or publication-history excerpts"
+    },
+    {
+      "id": "B36",
+      "folder": "Шоқай_Мұстафа__Таңдамалы",
+      "metadata": {
+        "Кітап атауы": "Таңдамалы",
+        "Авторы": "Шоқай Мұстафа",
+        "Жазылу жылы": "1998",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1632858&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 513,
+      "words": 328313,
+      "characters": 3015228,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 513,
+      "missing_page_ids": [],
+      "images_present": 0,
+      "hyphen_linebreaks": 3790,
+      "replacement_characters": 0,
+      "term_rows": 2182,
+      "unique_pairs": 2182,
+      "historical_definitions": 68,
+      "different_term_rows": 558,
+      "ref_min": 8,
+      "ref_max": 503,
+      "domains": [
+        [
+          "Саясаттану",
+          559
+        ],
+        [
+          "Экономика",
+          214
+        ],
+        [
+          "Тарих",
+          113
+        ],
+        [
+          "Философия",
+          108
+        ],
+        [
+          "Әлеуметтану",
+          84
+        ],
+        [
+          "Педагогика",
+          71
+        ],
+        [
+          "Құқық",
+          55
+        ],
+        [
+          "Білім",
+          38
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шоқай Мұстафа",
+          2182
+        ]
+      ],
+      "year_counts": [
+        [
+          "1998",
+          2182
+        ]
+      ],
+      "source_links": {
+        "web": 2182
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Кіші сала(subfield)",
+            "E": "Заманауи түсініктеме",
+            "F": "Алаш түсініктемесі",
+            "G": "Анықтама бар ма",
+            "H": "Екі бет арасындағы мәтін -- контекст үшін",
+            "I": "Авторы",
+            "J": "Басталатын беті",
+            "K": "Аяқталу беті",
+            "L": "Жазылу жылы",
+            "M": "Сілтеме",
+            "N": "Ғылыми дискурсқа маңызы"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Use verified scholarly or publication-history excerpts"
+    },
+    {
+      "id": "B37",
+      "folder": "Шоқай_Мұстафа__Таңдамалы_шығармалар",
+      "metadata": {
+        "Кітап атауы": "Таңдамалы шығармалар",
+        "Авторы": "Шоқай, Мұстафа",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1110595&simple=true#"
+      },
+      "pages": 383,
+      "words": 109147,
+      "characters": 961734,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 384,
+      "missing_page_ids": [
+        43
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 4087,
+      "replacement_characters": 0,
+      "term_rows": 1650,
+      "unique_pairs": 1650,
+      "historical_definitions": 35,
+      "different_term_rows": 299,
+      "ref_min": 13,
+      "ref_max": 381,
+      "domains": [
+        [
+          "Саясаттану",
+          94
+        ],
+        [
+          "Саясаттану, Тарих",
+          38
+        ],
+        [
+          "Медицина",
+          34
+        ],
+        [
+          "Саясаттану, Әлеуметтану",
+          33
+        ],
+        [
+          "Құқық",
+          32
+        ],
+        [
+          "Экономика",
+          28
+        ],
+        [
+          "Заң",
+          28
+        ],
+        [
+          "Тарих, Саясаттану",
+          27
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шоқай, Мұстафа",
+          1650
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          1650
+        ]
+      ],
+      "source_links": {
+        "web": 1650
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": true
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Headerless terminology sheet; use verified scholarly excerpts"
+    },
+    {
+      "id": "B38",
+      "folder": "Шоқай_Мұстафа__Таңдамалы_шығармалар_2",
+      "metadata": {
+        "Кітап атауы": "Таңдамалы шығармалар_2",
+        "Авторы": "Шоқай, Мұстафа",
+        "Жазылу жылы": "2013",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1110593&simple=true#"
+      },
+      "pages": 182,
+      "words": 48976,
+      "characters": 842187,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 352,
+      "missing_page_ids": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 1854,
+      "replacement_characters": 0,
+      "term_rows": 990,
+      "unique_pairs": 989,
+      "historical_definitions": 34,
+      "different_term_rows": 172,
+      "ref_min": 4,
+      "ref_max": 351,
+      "domains": [
+        [
+          "Саясаттану",
+          65
+        ],
+        [
+          "Саясаттану, Тарих",
+          48
+        ],
+        [
+          "Экономика",
+          48
+        ],
+        [
+          "Тарих, Саясаттану",
+          25
+        ],
+        [
+          "Саясаттану, Әлеуметтану",
+          21
+        ],
+        [
+          "Әлеуметтану",
+          16
+        ],
+        [
+          "Заң",
+          16
+        ],
+        [
+          "Тарих",
+          14
+        ]
+      ],
+      "author_counts": [
+        [
+          "Шоқай, Мұстафа",
+          990
+        ]
+      ],
+      "year_counts": [
+        [
+          "2013.0",
+          990
+        ]
+      ],
+      "source_links": {
+        "web": 990
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Context",
+      "opportunity_note": "Sparse OCR coverage; use verified scholarly excerpts"
+    },
+    {
+      "id": "B39",
+      "folder": "Әуезов_М._О.__Шығармаларының_елу_томдық_толық_жинағы",
+      "metadata": {
+        "Кітап атауы": "Шығармаларының елу томдық толық жинағы",
+        "Авторы": "Әуезов, М. О.",
+        "Жазылу жылы": "1924-1930",
+        "Сілтеме": "https://kazneb.kz/la/bookView/view?brId=1177367&simple=true#",
+        "Заманауи термин": "Алаш термині"
+      },
+      "pages": 392,
+      "words": 100047,
+      "characters": 733281,
+      "empty_pages": 0,
+      "duplicate_page_ids": 0,
+      "page_id_min": 1,
+      "page_id_max": 458,
+      "missing_page_ids": [
+        35,
+        36,
+        38,
+        40,
+        41,
+        42,
+        43,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        138,
+        140,
+        141,
+        143,
+        144,
+        146,
+        147,
+        148,
+        150,
+        151,
+        153,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        239,
+        317,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        383,
+        400
+      ],
+      "images_present": 0,
+      "hyphen_linebreaks": 889,
+      "replacement_characters": 0,
+      "term_rows": 2179,
+      "unique_pairs": 2179,
+      "historical_definitions": 139,
+      "different_term_rows": 1091,
+      "ref_min": 6,
+      "ref_max": 456,
+      "domains": [
+        [
+          "Әдебиеттану",
+          124
+        ],
+        [
+          "Медицина",
+          59
+        ],
+        [
+          "Педагогика",
+          36
+        ],
+        [
+          "Әдебиеттану, Фольклористика",
+          32
+        ],
+        [
+          "Тарих",
+          24
+        ],
+        [
+          "Экономика",
+          22
+        ],
+        [
+          "Ауыл шаруашылығы",
+          18
+        ],
+        [
+          "Дінтану",
+          17
+        ]
+      ],
+      "author_counts": [
+        [
+          "Әуезов, М. О.",
+          2179
+        ]
+      ],
+      "year_counts": [
+        [
+          "1924-1930",
+          2179
+        ]
+      ],
+      "source_links": {
+        "web": 2179
+      },
+      "schemas": [
+        {
+          "name": "Sheet",
+          "headers": {
+            "A": "Заманауи термин",
+            "B": "Алаш термині",
+            "C": "Сала",
+            "D": "Заманауи түсініктеме",
+            "E": "Алаш түсініктемесі",
+            "F": "Екі бет арасындағы мәтін -- контекст үшін",
+            "G": "Авторы",
+            "H": "Басталатын беті",
+            "I": "Аяқталу беті",
+            "J": "Жазылу жылы",
+            "K": "Сілтеме"
+          },
+          "inferred": false
+        }
+      ],
+      "state": null,
+      "recommended_use": "Priority excerpts",
+      "opportunity_note": "Literary scholarship and educational or scientific reading materials"
+    }
+  ]
+}

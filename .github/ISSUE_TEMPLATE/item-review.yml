@@ -1,0 +1,38 @@
+name: Item review
+description: Report a problem with, or confirm, one question
+title: "[ALASH_XXX00] "
+labels: ["item-review"]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Item ID
+      placeholder: ALASH_LING02
+    validations: {required: true}
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options: [keep, revise, replace]
+    validations: {required: true}
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Main problem
+      multiple: true
+      options:
+        - key not supported by passage
+        - more than one defensible answer
+        - weak or implausible distractors
+        - stem hints at the answer
+        - answerable without the book
+        - Kazakh wording
+        - wrong attribution (author, translator, work)
+        - OCR differs from scan
+        - other
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Quote the exact text and say what it should be. Did you answer blind before opening the key?
+    validations: {required: true}
