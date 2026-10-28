@@ -12,6 +12,9 @@
   license it should be released, is a decision for the maintainer.
 - Code in `scripts/` has no license file yet.
 
-Before anything here is made public (GitHub or Hugging Face): confirm the edition-specific rights for
+The GitHub repository was made public on 28 October 2026 at the maintainer's decision, with the excerpt rights
+still unresolved. If a rights holder objects, the passages (or the repository) will be removed.
+
+Before this is published on Hugging Face, or promoted as a benchmark: confirm the edition-specific rights for
 every cited volume, decide whether to ship excerpts or only offsets and hashes (the dataset still
 works without `passage` for the closed-book track), and choose licenses.

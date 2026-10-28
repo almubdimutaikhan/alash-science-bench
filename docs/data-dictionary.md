@@ -103,7 +103,7 @@ Task composition and difficulty are not matched across fields: linguistic items 
 
 Do not tune prompts or thresholds on all these items and then describe their score as a held-out result. All records are currently a public-to-the-user pilot. Before formal evaluation define development/test groups at original-work/concept-family level, manually reconcile repeated works across collections, and check that fields are represented. A volume ID is a conservative helper, not a complete deduplication system.
 
-No license or redistribution permission for source excerpts is asserted. Keep this draft private until edition-specific rights and attribution are checked. Source scans are not included. New question writing and OCR do not prove the underlying content was absent from pretraining.
+No license or redistribution permission for source excerpts is asserted. Edition-specific rights and attribution still need checking (see RIGHTS.md in the repository root). Source scans are not included. New question writing and OCR do not prove the underlying content was absent from pretraining.
 
 ## Learn and plan
 

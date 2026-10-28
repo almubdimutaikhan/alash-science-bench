@@ -7,8 +7,8 @@ single field you know best. You do not need to run any code.
 
 160 Kazakh questions about scientific terms and ideas in Alash-era books. An AI wrote each item and
 a second AI checked it against the OCR text. No person has read them yet. That is your job. Read the
-[README](README.md) status box and [RIGHTS.md](RIGHTS.md); please keep this repository private and do
-not share the passages outside the review group.
+[README](README.md) status box and [RIGHTS.md](RIGHTS.md); this repository is public, but the passage rights
+are unresolved, so please do not copy the passages elsewhere.
 
 ## Your steps
 
