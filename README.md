@@ -163,6 +163,7 @@ sources, then run `export_hf.py` and `make_review_pack.py`. Do not hand-edit gen
 | `source/drafts`, `source/reviews` | Editable items and the per-item AI review records |
 | `review/` | Human-review pack for colleagues (generated); start at [REVIEW.md](REVIEW.md) |
 | `docs/` | Data dictionary, validation record, first-pass review findings, next steps, corpus review, learning guide |
+| `directions/` | Outside feedback (29 Oct 2026), proposed research question and a phased action list |
 | `scripts/` | Builder/validator, HF exporter, review-pack generator. No model inference |
 
 ## Intended use and limits
